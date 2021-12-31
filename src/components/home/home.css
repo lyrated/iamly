@@ -1,0 +1,14 @@
+#home h2 {
+  font-size: 5.5rem;
+  line-height: 90%;
+  padding: 3rem 0;
+  text-transform: none;
+  text-shadow: -4px 3px var(--lightpink);
+}
+
+@media (min-width: 768px) {
+  #home h2 {
+    font-size: 7.5rem;
+    text-shadow: -5px 4px var(--lightpink);
+  }
+}

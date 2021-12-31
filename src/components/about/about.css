@@ -1,0 +1,6 @@
+#about img {
+  border: 5px solid var(--purple);
+  border-radius: 20px 0 20px;
+  object-fit: cover;
+  max-width: 100%;
+}

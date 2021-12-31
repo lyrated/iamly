@@ -1,0 +1,26 @@
+#projects .project {
+  padding: 1.5rem 0;
+}
+
+#projects img {
+  object-fit: cover;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+#projects img.odd {
+  border: 5px solid var(--lightpink);
+  border-radius: 0 20px 0 20px;
+}
+#projects img.even {
+  border: 5px solid var(--lightgray);
+  border-radius: 20px 0 20px;
+}
+
+#projects h3 {
+  color: var(--pink);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+}
